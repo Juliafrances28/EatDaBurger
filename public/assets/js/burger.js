@@ -1,11 +1,9 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 
 
+$(function () {
 var burgerList = $("#burger-list");
 var eatenList = $("#eaten-list");
-var delicious =
-
-$(function () {
   $.ajax("/burger", {
     type: "GET",
   }).then(function (data) {
@@ -18,34 +16,31 @@ $(function () {
       var delicious = 
       "<li>" +
         burgers[i].id +
-        "." + burgers[i].burger_name +
+        "." + burgers[i].burger_name;
+
+      if (burgers[i].devoured) {
+       delicious +=
+       "<button class='delete-burger' data-id='" +
+       burgers[i].id +
+       "'>DELETE</button>"; 
+      } else {
+        delicious +=
         "<button class='change-devour' data-id = ' " +
         burgers[i].id +
         "'data-newBurger='" +
         !burgers[i].devour +
-        "'>";
-      console.log(delicious);
-  
-    
-      if (burger[i].devoured) {
-        newBurger += ("devoured");
-      } else {
-        newBurger += ("deleted");
+        "'>DEVOUR</button>"; 
       }
-         
-     newBurger += "</button>";
-
-       newBurger +=
-        "<button class='delete-burger' data-id='" +
-        burgers[i].id +
-        "'>DELETE!</button></li>";    
+      
+      delicious += "</li>" 
+      
         // console.log (delicious); 
 
       // append to a section of the html
-      if (burgers[i].devoured === true) {
-        burgerList.append(delicious);
+      if (burgers[i].devoured) {
+      eatenList.append(delicious)
       } else {
-        eatenList.append(delicious);
+      burgerList.append(delicious);
       }
     }
   });

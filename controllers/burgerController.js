@@ -16,23 +16,25 @@ router.get("/burger", function(req, res) {
   });
 });
 
+// lines 20/23 are a little different then the cat
 router.post("/burger", function(req, res) {
   burger.create([
     "burger_name"
   ], [
-  req.body.name
+  req.body.burger_name
   ], function(result) {
     // Send back the ID of the new quote
+    // this was added 
+    res.json ({id: result.insertID}); 
    });
 });
 
 router.put("/burger/:id", function(req, res) {
   var condition = "id = " + req.params.id;
-
   console.log("condition", condition);
 
   burger.update({
-    burger: req.body.burger
+    devoured: req.body.devour
   }, condition, function(result) {
     if (result.changedRows == 0) {
       // If no rows were changed, then the ID must not exist, so 404

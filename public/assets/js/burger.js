@@ -2,7 +2,8 @@
 
 
 var burgerList = $("#burger-list");
-var delicious = 
+var eatenList = $("#eaten-list");
+var delicious =
 
 $(function () {
   $.ajax("/burger", {
@@ -17,40 +18,41 @@ $(function () {
       var delicious = 
       "<li>" +
         burgers[i].id +
-        "." +
-        burgers[i].burger_name +
+        "." + burgers[i].burger_name +
         "<button class='change-devour' data-id = ' " +
         burgers[i].id +
         "'data-newBurger='" +
         !burgers[i].devour +
-        " '>' ";
+        "'>";
       console.log(delicious);
- 
+  
+    
+      if (burger[i].devoured) {
+        newBurger += ("devoured");
+      } else {
+        newBurger += ("deleted");
+      }
+         
+     newBurger += "</button>";
 
-            
+       newBurger +=
+        "<button class='delete-burger' data-id='" +
+        burgers[i].id +
+        "'>DELETE!</button></li>";    
+        // console.log (delicious); 
 
       // append to a section of the html
       if (burgers[i].devoured === true) {
-       
-      } else {
-
-      }
-
-      // should this be .type or .li?  🤔 should be .li b/c you are appending a type of burger to the li. Or type b/c your adding a type to the list
-      //example below
-      // if (cats[i].sleepy) {sleepyElem.append(new_elem);} else {nosleepyElem.append(new_elem);
-      //   }
-      // }
-      // if (burgers[i].list) {
         burgerList.append(delicious);
-
+      } else {
+        eatenList.append(delicious);
+      }
     }
   });
 
-  $(document).on("click", ".change-devour", function (event) {
-    var id = $(this).data("id");
-    var devour = $(this).data("devour") === true;
 
+  $(document).on("click", ".change-devour", function (event) {
+    var id = $(this).data("id")
     var newburger = {
       devour: newburger,
     }; 

@@ -1,10 +1,10 @@
 
 ###seeds 
 
-INSERT INTO burgers (burger_name, devoured) VALUES ('Chickpea Burger', true); 
-INSERT INTO burgers (burger_name, devoured) VALUES ('Masala Burger', true);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Beet Burger', true);
-INSERT INTO burgers (burger_name, devoured) VALUES ('California Burger');
-INSERT INTO burgers (burger_name, devoured) VALUES ('Quinoa Burger');
-INSERT INTO burgers (burger_name, devoured) VALUES ('Black Bean Burger'):
-INSERT INTO burgers (burger_name, devoured) VALUES ('Sweet Potato');
+INSERT INTO burgers (burger_name) VALUES ('Chickpea Burger');
+INSERT INTO burgers (burger_name) VALUES ('Masala Burger');
+INSERT INTO burgers (burger_name) VALUES ('Beet Burger');
+INSERT INTO burgers (burger_name) VALUES ('California Burger');
+INSERT INTO burgers (burger_name) VALUES ('Quinoa Burger');
+INSERT INTO burgers (burger_name) VALUES ('Black Bean Burger'):
+INSERT INTO burgers (burger_name) VALUES ('Sweet Potato');

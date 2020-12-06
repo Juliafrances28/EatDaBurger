@@ -17,9 +17,11 @@ router.get("/burger", function(req, res) {
 });
 
 router.post("/burger", function(req, res) {
-  burger.create(
+  burger.create([
+    "burger_name"
+  ], [
   req.body.name
-  , function(result) {
+  ], function(result) {
     // Send back the ID of the new quote
    });
 });
@@ -42,7 +44,7 @@ router.put("/burger/:id", function(req, res) {
 });
 
 router.delete("/burger/:id", function(req, res) {
-  var condition = "id = " + req.params.id;
+  var condition = "id =  " + req.params.id;
 
   burger.delete(condition, function(result) {
     if (result.affectedRows == 0) {

@@ -53,9 +53,8 @@ $(function () {
 
   $(document).on("click", ".change-devour", function (event) {
     var id = $(this).data("id")
-    var newburger = {
-      devour: newburger,
-    }; 
+    var newburger = {devour: true}
+  
 
     // here the computer changes to devour which is always true or defaults to false
 

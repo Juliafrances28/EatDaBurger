@@ -21,7 +21,7 @@ router.post("/burger", function(req, res) {
   burger.create([
     "burger_name"
   ], [
-  req.body.burger_name
+  req.body.name
   ], function(result) {
     // Send back the ID of the new quote
     // this was added 

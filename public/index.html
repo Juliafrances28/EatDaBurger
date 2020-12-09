@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,48 +5,32 @@
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
     <title>Eat Da Burger</title>
     <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="/assets/js/burger.js"></script>
   </head>
-  <body>
-    <h1> Eat Da Burger </h1>
-    <h2> Variety of Veggie Burgers </h2>
-    <h3> Devour </h3> 
+  <body class="back">
+    <h1 class="eat">Eat Da Burger</h1>
+    <h2 class="veggie">Variety of Veggie Burgers</h2>
 
-    <ul id="burger-list">  </ul> 
-
-
-        <h3> Delete </h3> 
-    <ul id="eaten-list"></ul>
-           
-
-  
-
-    <!-- <h2> All types of Burgers</h2> -->
-
- 
     <div>
-      <img src = "https://www.noracooks.com/wp-content/uploads/2018/01/IMG_9900.jpg" alt = veggie  width = 15%> 
+      <img
+        src="https://www.noracooks.com/wp-content/uploads/2018/01/IMG_9900.jpg"
+        class="img"
+        alt="veggie"
+        width="15%"
+      />
     </div>
 
-    <!-- <h2>Add a Burger</h2> -->
     <form class="create-form">
       <div class="form-group">
-        <!-- <label for="Burger">Burger Name:</label> -->
-        
-        <button type="submit">Add Burger</button>
+        <button type="submit">Add A Burger</button>
         <input type="text" id="food" name="name" />
       </div>
-  
-       
-      <div class="form-group">
-        <!-- <label for="burger">delicious?</label><br /> -->
-        <!-- <input type="radio" name="burger" value="1" checked />
-        <br />
-        <input type="radio" name="burger" value="0" />  -->
-      </div>
-
-      <!-- <button type="submit">Add burger</button> -->
     </form>
+
+    <h3>Devour</h3>
+    <ul id="burger-list"></ul>
+
+    <h3>Delete</h3>
+    <ul id="eaten-list"></ul>
+    <script src="/assets/js/burger.js"></script>
   </body>
 </html>
-

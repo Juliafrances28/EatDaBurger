@@ -1,7 +1,12 @@
+.back {
+  background-color: #ff8c00;
+}
+
 li {
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
   background: #faebd7;
+  color: center;
 }
 
 .label {
@@ -11,9 +16,39 @@ li {
 .create-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
+}
+
+.img {
+  width: 25%;
+  display: block;
+  margin: auto 35%;
+  padding: 20px;
+  border-radius: 50px;
+  border-color: red;
 }
 
 .form-group {
-  margin-bottom: 5px;
+  color: lightyellow;
+  margin: auto 40%;
+}
+
+.deletebtn {
+  background-color: blue;
+  color: white;
+  border: 1px solid;
+}
+
+.devourbtn {
+  padding-left: 10px;
+  background-color: red;
+  color: white;
+  border: 1px solid;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-size: 34px;
+  line-height: 48px;
+  color: black;
 }

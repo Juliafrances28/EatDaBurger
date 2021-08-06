@@ -10,6 +10,7 @@ Table of Contents
  * [Questions](#Questions)
  * [License](#License)
  * [Email](#Email)
+ * [Username](#Username)
  * [Repo Link](#Repolink)
  * [Deployed Link](#Deployedlink)
  
@@ -18,10 +19,10 @@ Description
 To Create a search site, that searches for Burgers. Using express with routers for get, post, put, update and delete. 
 
 Installation
-First, npm create-react-app my-app Then install the following: npm install, npm install express, npm install mysql. 
+First, npm create-react-app my-app Then install the following: npm install, npm install express, npm install MySQl. 
 
 Usage
-To Use mysql and create a search-engine focused site that tracks burgers when they are entered. 
+To Use MySQL and create a search-engine focused site that tracks burgers when they are entered. 
 
 license
 MIT ![badge](https://img.shields.io/badge/License-MIT-yellow

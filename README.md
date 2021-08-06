@@ -2,14 +2,18 @@
 
 React Portfolio
 Table of Contents
- * [Email](#Email)
- * [Username](#Username)
+
  * [Description](#Description)
  * [Instructions](#Instructions)
  * [Usage](#Usage)
  * [Installation](#Installation)
  * [Questions](#Questions)
  * [License](#License)
+ * [Email](#Email)
+ * [Repo Link](#Repolink)
+ * [Deployed Link](#Deployedlink)
+ 
+
 Description
 To Create a search site, that searches for Burgers. Using express with routers for get, post, put, update and delete. 
 

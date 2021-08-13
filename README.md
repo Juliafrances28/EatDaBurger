@@ -15,35 +15,35 @@ Table of Contents
  * [Deployed Link](#Deployedlink)
  
 
-Description
+## Description
 To Create a search site, that searches for Burgers. Using express with routers for get, post, put, update and delete. 
 
-Installation
+## Installation
 First, npm create-react-app my-app Then install the following: npm install, npm install express, npm install MySQl. 
 
-Usage
+## Usage
 To Use MySQL and create a search-engine focused site that tracks burgers when they are entered. 
 
-license
+## license
 MIT ![badge](https://img.shields.io/badge/License-MIT-yellow
 
-Contributed
+## Contributed
 It was a solo project.
 
-Tested
+## Tested
 run node.js
 
-Questions
+## Questions
 Please reach out
 
-Username
+## Username
 juliafrances28
 
-Email
+## Email
 julia.horan28@gmail.com
 
-Repo link
+## Repo link
 https://github.com/Juliafrances28/EatDaBurger
 
-Deployed link
+## Deployed link
 https://secret-earth-67970.herokuapp.com

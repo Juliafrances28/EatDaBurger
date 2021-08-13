@@ -1,3 +1,4 @@
+<img width="1278" alt="Burger Buttons" src="https://user-images.githubusercontent.com/67694214/129424958-098c0caa-9ea4-4570-a21c-eb9595e4ea80.png">
 # Burgers
 
 
@@ -47,3 +48,9 @@ https://github.com/Juliafrances28/EatDaBurger
 
 ## Deployed link
 https://secret-earth-67970.herokuapp.com
+
+<img width="739" alt="Veggie Burger" src="https://user-images.githubusercontent.com/67694214/129425003-fa5dbbd4-fef2-4463-82b8-1ca5c205fed6.png">
+
+
+<img width="1278" alt="Burger Buttons" src="https://user-images.githubusercontent.com/67694214/129424975-b109bbf3-068c-4712-b725-f86233b488fa.png">
+

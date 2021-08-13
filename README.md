@@ -49,8 +49,7 @@ https://github.com/Juliafrances28/EatDaBurger
 ## Deployed link
 https://secret-earth-67970.herokuapp.com
 
-<img width="597" alt="Screen Shot 2021-08-13 at 7 03 55 PM" src="https://user-images.githubusercontent.com/67694214/129425806-7869305e-c062-44e6-af07-fd26ca00cb0d.png">
-<img width="516" alt="Screen Shot 2021-08-13 at 7 05 53 PM" src="https://user-images.githubusercontent.com/67694214/129425920-bd7f4663-6238-4c02-b427-6d1780ef49b0.png">
+<img width="627" alt="Screen Shot 2021-08-13 at 7 07 17 PM" src="https://user-images.githubusercontent.com/67694214/129426005-635e164a-f81c-4f10-9cfd-5f46998770e4.png">
 
 
 

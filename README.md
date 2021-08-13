@@ -1,4 +1,4 @@
-<img width="1278" alt="Burger Buttons" src="https://user-images.githubusercontent.com/67694214/129424958-098c0caa-9ea4-4570-a21c-eb9595e4ea80.png">
+
 # Burgers
 
 

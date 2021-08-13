@@ -49,8 +49,7 @@ https://github.com/Juliafrances28/EatDaBurger
 ## Deployed link
 https://secret-earth-67970.herokuapp.com
 
-<img width="739" alt="Veggie Burger" src="https://user-images.githubusercontent.com/67694214/129425003-fa5dbbd4-fef2-4463-82b8-1ca5c205fed6.png">
+<img width="597" alt="Screen Shot 2021-08-13 at 7 03 55 PM" src="https://user-images.githubusercontent.com/67694214/129425806-7869305e-c062-44e6-af07-fd26ca00cb0d.png">
+<img width="435" alt="Screen Shot 2021-08-13 at 7 02 44 PM" src="https://user-images.githubusercontent.com/67694214/129425811-3b1f1e3c-5b60-4c98-a047-30e94aedf6bc.png">
 
-
-<img width="1278" alt="Burger Buttons" src="https://user-images.githubusercontent.com/67694214/129424975-b109bbf3-068c-4712-b725-f86233b488fa.png">
 

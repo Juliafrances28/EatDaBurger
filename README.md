@@ -50,6 +50,7 @@ https://github.com/Juliafrances28/EatDaBurger
 https://secret-earth-67970.herokuapp.com
 
 <img width="597" alt="Screen Shot 2021-08-13 at 7 03 55 PM" src="https://user-images.githubusercontent.com/67694214/129425806-7869305e-c062-44e6-af07-fd26ca00cb0d.png">
-<img width="435" alt="Screen Shot 2021-08-13 at 7 02 44 PM" src="https://user-images.githubusercontent.com/67694214/129425811-3b1f1e3c-5b60-4c98-a047-30e94aedf6bc.png">
+<img width="516" alt="Screen Shot 2021-08-13 at 7 05 53 PM" src="https://user-images.githubusercontent.com/67694214/129425920-bd7f4663-6238-4c02-b427-6d1780ef49b0.png">
+
 
 
